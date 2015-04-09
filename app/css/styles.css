@@ -1,0 +1,303 @@
+/* line 4, ../sass/styles.scss */
+body {
+  margin-top: 50px;
+}
+
+/* line 8, ../sass/styles.scss */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 11, ../sass/styles.scss */
+a:hover {
+  background-color: #3377AA;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* line 17, ../sass/styles.scss */
+h3 {
+  color: #111;
+  font-weight: bold;
+}
+
+/* line 23, ../sass/styles.scss */
+footer .container {
+  border-top: 1px dashed #ddd;
+  color: #999;
+  margin-top: 2em;
+  padding: 6px 0;
+}
+/* line 30, ../sass/styles.scss */
+footer ul {
+  list-style: none;
+}
+/* line 32, ../sass/styles.scss */
+footer ul li {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+/* line 34, ../sass/styles.scss */
+footer ul li a {
+  text-decoration: none;
+}
+/* line 36, ../sass/styles.scss */
+footer ul li a:hover {
+  background-color: #3377AA;
+  color: #fff;
+}
+
+/* line 48, ../sass/styles.scss */
+.navbar.navbar-inverse.navbar-fixed-top {
+  background-color: #545652;
+  color: #545652;
+  padding-right: 10px;
+}
+/* line 53, ../sass/styles.scss */
+.navbar.navbar-inverse.navbar-fixed-top .nav-active {
+  background-color: #379947;
+}
+/* line 55, ../sass/styles.scss */
+.navbar.navbar-inverse.navbar-fixed-top .nav-active a {
+  color: #fff;
+}
+
+/* line 64, ../sass/styles.scss */
+.jumbotron {
+  height: 200px;
+}
+/* line 66, ../sass/styles.scss */
+.jumbotron h2 {
+  color: #27a;
+  font-weight: bold;
+}
+/* line 70, ../sass/styles.scss */
+.jumbotron .input-group {
+  margin-top: 20px;
+}
+/* line 74, ../sass/styles.scss */
+.jumbotron ul {
+  list-style: none;
+  margin-top: -70px;
+}
+/* line 79, ../sass/styles.scss */
+.jumbotron ul li a {
+  text-decoration: none;
+}
+/* line 82, ../sass/styles.scss */
+.jumbotron ul li a:hover {
+  background-color: #3377AA;
+  color: #fff;
+}
+
+/* line 92, ../sass/styles.scss */
+.app {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-weight: bold;
+  color: #13bc39;
+  font-size: 3em;
+  line-height: 2;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: pink;
+  vertical-align: middle;
+}
+
+/* line 108, ../sass/styles.scss */
+.side .hot-link {
+  background-color: #f2f7f6;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  line-height: 1.5;
+  padding: 16px 0 16px 18px;
+}
+/* line 113, ../sass/styles.scss */
+.side .hot-link h2 {
+  color: #072;
+}
+/* line 116, ../sass/styles.scss */
+.side .hot-link ul {
+  list-style: inside none disc;
+  color: #cedcd9;
+}
+/* line 122, ../sass/styles.scss */
+.side .billboard h3 {
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  color: #111;
+}
+/* line 127, ../sass/styles.scss */
+.side .billboard h3 small {
+  font-size: .6em;
+}
+/* line 130, ../sass/styles.scss */
+.side .billboard h3 a {
+  text-decoration: none;
+}
+/* line 132, ../sass/styles.scss */
+.side .billboard h3 a:hover {
+  background-color: #3377AA;
+  color: #fff;
+}
+/* line 138, ../sass/styles.scss */
+.side .billboard .dl-horizontal {
+  margin-left: -152px;
+}
+/* line 140, ../sass/styles.scss */
+.side .billboard .dl-horizontal dd {
+  padding: 7px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+/* line 144, ../sass/styles.scss */
+.side .billboard .dl-horizontal dt {
+  padding: 7px 0;
+}
+/* line 149, ../sass/styles.scss */
+.side .redeem {
+  background-color: #e3ebec;
+  margin-bottom: 14px;
+}
+/* line 152, ../sass/styles.scss */
+.side .redeem p {
+  height: 40px;
+  line-height: 40px;
+  margin-left: 15px;
+}
+/* line 159, ../sass/styles.scss */
+.side .glist li {
+  padding: 7px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+/* line 166, ../sass/styles.scss */
+.side .contact li {
+  padding: 7px 0;
+}
+/* line 170, ../sass/styles.scss */
+.side .media {
+  background-color: #f1f1f1;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 16px 18px 16px 10px;
+}
+/* line 174, ../sass/styles.scss */
+.side .media .media-heading {
+  color: #204d92;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* line 183, ../sass/styles.scss */
+.thumbnail {
+  border: none;
+}
+
+/* line 189, ../sass/styles.scss */
+.article small {
+  padding-left: 20px;
+}
+/* line 192, ../sass/styles.scss */
+.article .thumbnail {
+  text-align: center;
+}
+/* line 196, ../sass/styles.scss */
+.article .slide1 .slick-prev {
+  top: -14px;
+  left: 90%;
+}
+/* line 199, ../sass/styles.scss */
+.article .slide1 .slick-prev:before {
+  color: #6D98D2;
+}
+/* line 203, ../sass/styles.scss */
+.article .slide1 .slick-next {
+  top: -14px;
+  right: 3%;
+}
+/* line 206, ../sass/styles.scss */
+.article .slide1 .slick-next:before {
+  color: #6D98D2;
+}
+
+/* line 213, ../sass/styles.scss */
+.filter {
+  margin-top: 20px;
+}
+/* line 215, ../sass/styles.scss */
+.filter .thumbnail {
+  text-align: center;
+}
+
+/* line 224, ../sass/styles.scss */
+.addMore a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 227, ../sass/styles.scss */
+.addMore a:hover {
+  background-color: transparent;
+}
+
+/* line 235, ../sass/styles.scss */
+.slide2 {
+  margin-top: 60px;
+  background-color: #F9F9F9;
+}
+/* line 239, ../sass/styles.scss */
+.slide2 .thumbnail img {
+  min-width: 50%;
+  height: 100%;
+}
+/* line 244, ../sass/styles.scss */
+.slide2 .slick-prev {
+  top: -14px;
+  left: 90%;
+}
+/* line 247, ../sass/styles.scss */
+.slide2 .slick-prev:before {
+  color: #6D98D2;
+}
+/* line 251, ../sass/styles.scss */
+.slide2 .slick-next {
+  top: -14px;
+  right: 3%;
+}
+/* line 254, ../sass/styles.scss */
+.slide2 .slick-next:before {
+  color: #6D98D2;
+}
+
+/* line 263, ../sass/styles.scss */
+.critic small {
+  margin-left: 15px;
+}
+/* line 266, ../sass/styles.scss */
+.critic .media {
+  padding: 2em;
+  border-top: 1px solid #eaeaea;
+}
+
+/* line 274, ../sass/styles.scss */
+.appH {
+  position: relative;
+}
+
+/* line 277, ../sass/styles.scss */
+.app {
+  position: absolute;
+  top: -10000px;
+}
+
+/* line 281, ../sass/styles.scss */
+.app-hover {
+  top: 50px;
+  right: 88px;
+}

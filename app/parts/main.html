@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My index</title>
+  <!-- bower:css -->
+  <link rel="stylesheet" href="/app/bower_components/fontawesome/css/font-awesome.css">
+  <link rel="stylesheet" href="/app/bower_components/animate.css/animate.css">
+  <!-- endinject -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../bower_components/slickjs/slick/slick.css">
+  <link rel="stylesheet" href="../bower_components/slickjs/slick/slick-theme.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- endinject -->
+</head>
+<body>
+ <div class="container">
+   <div class="row">
+    <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+      <div class="article">
+        <h3>正在热映<small><a href="#">即将上映》</a></small></h3>
+        <div class="row slide1" data-slick='{"slidesToShow": 4, "slidesToScroll": 4,"autoplay":true}'>
+          
+        </div>
+        <!--  article row end-->
+      </div>
+      <!-- article end -->
+      <div role="tabpanel">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">选电影</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">选电视剧</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+      <ul class="nav nav-pills">
+        <li class="active"><a href="#">热门</a></li>
+        <li><a href="#">最新</a></li>
+        <li><a href="#">经典</a></li>
+        <li><a href="#">可播放</a></li>
+        <li><a href="#">GQ高分</a></li>
+        <li><a href="#">冷门佳作</a></li>
+        <li><a href="#">华语</a></li>
+        <li><a href="#">欧美</a></li>
+        <li><a href="#">韩国</a></li>
+        <li><a href="#">日本</a></li>
+        <li><a href="#">动作</a></li>
+        <li><a href="#">喜剧</a></li>
+        <li><a href="#">爱情</a></li>
+        <li><a href="#">科幻</a></li>
+        <li><a href="#">悬疑</a></li>
+        <li><a href="#">恐怖</a></li>
+        <li><a href="#">动画  </a></li>
+      </ul>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="profile">
+      <ul class="nav nav-pills">
+        <li class="active"><a href="#">热门</a></li>
+        <li><a href="#">美剧</a></li>
+        <li><a href="#">英剧</a></li>
+        <li><a href="#">韩剧</a></li>
+        <li><a href="#">日剧</a></li>
+        <li><a href="#">国产剧</a></li>
+        <li><a href="#">港剧</a></li>
+        <li><a href="#">日本动画</a></li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <div id="hacker-list">
+    <form class="form-inline" role="form">
+    <div class="radio">
+      <label>
+        <input type="radio" name="sort" id="inputSort" value="" checked="checked" class="sort" data-sort="hot">
+        按热度排序
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="sort" id="inputSort" value="" class="sort" data-sort="id">
+        按时间排序
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="sort" id="inputSort" value="" class="sort" data-sort="name">
+        按评价排序
+      </label>
+    </div>
+    <div class="pull-right">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="">
+         我没看过的
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="">
+          可在线播放
+        </label>
+      </div>
+    </div>
+  </form>
+  <!-- sort -->
+  <div class="filter row list">
+    
+  </div>
+  </div>
+  <p class="addMore btn btn-primary btn-lg btn-block"><a href="#">加载更多</a></p>
+  <div class="slide2 row" data-slick='{"slidesToShow": 1, "slidesToScroll": 1,"autoplay":true}'>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="thumbnail">
+        <img src="../img/slide2/slide2-1.jpg"  alt="" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="caption col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <h3>GQ动画工作室制作作品</h3>
+          <p>
+            由动画大师宫崎骏创立的吉卜力工作室，其动画作品风格多变、充满想象且富有生气。憨憨的龙猫形象深入人心，吉卜力的LOGO也是用它来设计的。
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="thumbnail ">
+        <img src="../img/slide2/slide2-2.jpg" alt=""
+        class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="caption col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <h3>在电影音轨中的趣事</h3>
+          <p>
+            大卫·芬奇的《消失的爱人》本周推出蓝光，收录了覆盖全片的导演随片讲评。本文介绍其中的某些精彩内容。
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="thumbnail">
+        <img src="../img/slide2/slide2-3.jpg" alt="" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="caption col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <h3>听灰姑娘在唱歌</h3>
+          <p>
+            让我们红尘作伴 活的潇潇洒洒 策马奔腾 共享人世繁华 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- slide2 end -->
+  <div class="critic">
+   <h3>最受欢迎的影评<small><a href="#">更多热门影评》</a></small> <small><a href="#">新片影评》</a></small></h3> 
+   <div class="media">
+     <a class="pull-left" href="#">
+       <img class="media-object" src="../img/critic/critic-1.jpg" alt="Image">
+     </a>
+     <div class="media-body">
+       <h4 class="media-heading"><a href="#">【非影评】【首映式记录】我是全中国抱脸叔最多最久的迷妹！！</a></h4>
+       <p>2015.3.23.国贸百丽宫《Kingsman》photocall+首映 话说估计我今年的人品都已经用完了！！首映实在是爽爆了！！3月9号的时候，突然知道脸脸要来北京首映！！我的心！！后来看到FOX家官微有活动，送首映名额，我就想试试呗，用小基基的话说，万一有缘分呢...<a href="#">（全文）</p>
+     </div>
+   </div>
+    <div class="media">
+     <a class="pull-left" href="#">
+       <img class="media-object" src="../img/critic/critic-2.jpg" alt="Image">
+     </a>
+     <div class="media-body">
+       <h4 class="media-heading"><a href="#">谷口巧的假笑</a></h4>
+       <p>人是不可能一边攥紧拳头一边微笑的，唯有猴子才会那样。By太宰治 （一） 真正喜欢上这部剧是在第九集。第九集的末尾，从第一集就埋下的悬案终于要被破解了：为什么谷口巧会选择不工作，做一个所谓”高等游民，实际上的啃老族。弹幕里的人纷纷在猜测原...<a href="#">（全文）</p>
+     </div>
+   </div>
+    <div class="media">
+     <a class="pull-left" href="#">
+       <img class="media-object" src="../img/critic/critic-3.jpg" alt="Image">
+     </a>
+     <div class="media-body">
+       <h4 class="media-heading"><a href="#">不素 基督徒 就 别结婚叻</a></h4>
+       <p>否则 尊素 自取其辱 尊素 假模假式 滑稽 贵教 婚礼 誓词 素 无论 疾病 贫穷 莴 见过 鄙连 婚礼 司仪 缩 新娘 如何美 如何 事业 发达 如何 经济 发达 新郎 类似 莴 心缩 要素 没钱 就离 对么 婚姻 本来 就素 买保险 它的功棱 本身 就素 应...<a href="#">（全文）</p>
+     </div>
+   </div>
+    <div class="media">
+     <a class="pull-left" href="#">
+       <img class="media-object" src="../img/critic/critic-4.jpg" alt="Image">
+     </a>
+     <div class="media-body">
+       <h4 class="media-heading"><a href="#">任何的事都要按照基本法</a></h4>
+       <p>剛才你問我這個問題（指TVA吼不吼），我完全可以回答一句無可奉告，你們又不高興，我怎麼辦？我講的這個意思，不是我欽點它好評……但你們問我資不資詞，那我說資詞，我就告訴你們這麼一點…… 我感覺你們漫評界啊還要學習一個啊，你們很熟悉貴支那一套歷... <a href="#">（全文）</a></p>
+     </div>
+   </div>
+  </div>
+  <!-- critic end -->
+</div>
+    </div>
+    <div class="side col-xs-4 col-sm-4 col-md-4 col-lg-4 
+    col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+      <div>
+         <a href="#" class="thumbnail">
+            <img src="../img/side-1.jpg" height="250" width="300" alt="...">
+         </a>
+      </div>
+      <div class="hot-link">
+        <h2>电影活动 · · · · · · </h2>
+        <ul>
+          <li><a href="#">第5届GQ电影鑫像奖【获奖名单】</a></li>
+          <li><a href="#">【获奖名单】看《超能陆战队》送萌大白！</a></li>
+          <li><a href="#">【免费】张艾嘉新作《念念》超前Q&A场</a></li>
+        </ul>
+      </div>
+      <!-- hot-link end -->
+      <div class="billboard">
+        <h3>
+          本周口碑榜
+          <samll><a href="#">更多榜单》</a></samll>
+        </h3>
+        <dl class="dl-horizontal">
+          <dt>1</dt>
+          <dd><a href="#">海洋之歌</a></dd>
+          <dt>2</dt>
+          <dd><a href="#">爱的那点性事</a></dd>
+          <dt>3</dt>
+          <dd><a href="#">小森林 夏秋篇</a></dd>
+          <dt>4</dt>
+          <dd><a href="#">印度的女儿</a></dd>
+          <dt>5</dt>
+          <dd><a href="#">四个月亮</a></dd>
+          <dt>6</dt>
+          <dd><a href="#">餳尔斯玛利亚</a></dd>
+          <dt>7</dt>
+          <dd><a href="#">自由之丘</a></dd>
+          <dt>8</dt>
+          <dd><a href="#">圣罗兰传</a></dd>
+          <dt>9</dt>
+          <dd><a href="#">迷失1971</a></dd>
+          <dt>10</dt>
+          <dd><a href="#">灰姑娘</a></dd>
+        </dl>
+      </div>
+      <!-- billboard end -->
+       <div>
+         <a href="#" class="thumbnail">
+            <img src="../img/side-2.jpg" height="250" width="300" alt="...">
+         </a>
+      </div>
+      <div class="redeem">
+        <p>><a href="#">通兑劵换票</a></p>
+      </div>
+      <div class="glist">
+        <h3>热门G列</h3>
+        <ul class="list-unstyled">
+          <li><a href="#">文艺范必修课</a><span class="pull-right">9027推荐</span></li>
+          <li><a href="#">关于美食的电影</a><span class="pull-right">9027推荐</span></li>
+          <li><a href="#">摄影最美的电影</a><span class="pull-right">7推荐</span></li>
+          <li><a href="#">与摇滚有关的一切</a><span class="pull-right">27推荐</span></li>
+          <li><a href="#">动画制作纪实</a><span class="pull-right">9推荐</span></li>
+        </ul>
+      </div>
+      <!-- glist end -->
+      <div class="contact">
+        <h3>合作联系</h3>
+        <ul class="list-unstyled">
+          <li><a href="#">申请开通影片小站</a></li>
+          <li><a href="#">申请开通电影院小站</a></li>
+          <li>咨询通兑券合作及购买</li>
+          <li>邮箱：gin280@163.com</li>
+        </ul>
+      </div>
+      <!-- contact end -->
+      <div class="media">
+        <a class="pull-left" href="#">
+          <img class="media-object" src="../img/" alt="Image">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">GQ电影客户端</h4>
+          <p>让买票看电影更简单</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+  <!-- bower:js -->
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+  <script src="/app/bower_components/moment/moment.js"></script>
+  <script src="/app/bower_components/underscore/underscore.js"></script>
+   <script src="../bower_components/handlebars/handlebars.js"></script>
+    <script src="../bower_components/listjs/dist/list.min.js"></script>
+   <script src="../js/article.js"></script>
+    <script src="../js/filter.js"></script>
+  <script src="../bower_components/slickjs/slick/slick.min.js"></script>
+
+  <!-- endinject -->
+  <!-- inject:js -->
+ <script src="../js/addMore.js"></script>
+  <script src="../js/sort.js"></script>
+  <!-- app scripts will go here... -->
+  <!-- endinject -->
+<script id="template" type="text/x-handlebars-template">
+  {{#each this}}
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div class="thumbnail">
+              <img src="{{src}}" alt="">
+              <div class="caption">
+                <h4 >{{name}}</h4>
+                <p>
+                  ...
+                </p>
+                <p>
+                  <a href="#" class="btn btn-primary">选座购票</a>
+                </p>
+              </div>
+            </div>
+          </div>
+  {{/each}}
+</script>
+<script id="template2" type="text/x-handlebars-template">
+  {{#each this}}
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="thumbnail">
+              <img src="{{src}}" alt="">
+              <div class="caption">
+                <h4 class="name">{{name}}</h4>
+                <p class="id">{{ID}} <strong class="hot">{{hot}}</strong></p>
+              </div>
+            </div>
+          </div>
+  {{/each}}
+</script>
+</body>
+</html>
